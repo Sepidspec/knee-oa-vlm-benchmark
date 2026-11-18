@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+data/
+reproduced/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.zip
+!artifacts/Knee_OA_study_outputs.zip
