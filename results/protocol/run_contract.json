@@ -1,0 +1,46 @@
+{
+  "config": {
+    "accumulation": 8,
+    "adapter_enabled": true,
+    "adapter_epochs": 2,
+    "adapter_lrs": [
+      0.0001,
+      0.0002
+    ],
+    "adapter_max_wall_hours": 6.0,
+    "bootstrap": 2000,
+    "cnn_batch": 32,
+    "cnn_epochs": 20,
+    "cnn_lrs": [
+      0.0001,
+      0.0003
+    ],
+    "cnn_patience": 3,
+    "cnn_workers": 2,
+    "data_root": "",
+    "grouping_evidence": "",
+    "grouping_verified": false,
+    "image_size": 224,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_rank": 8,
+    "max_context": 2048,
+    "mode": "study",
+    "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "model_local_path": "",
+    "model_revision": "main",
+    "optional_8bit": false,
+    "output_root": "/kaggle/working/knee_oa",
+    "quantization_bits": 4,
+    "resume_from": "",
+    "robustness_groups": 100,
+    "seed": 42,
+    "source_notes": "Folder labels 0\u20134; source reader/visit conventions remain unresolved.",
+    "strict_archive_counts": true,
+    "timing_groups": 100,
+    "timing_repeats": 3,
+    "timing_warmup": 3
+  },
+  "hash": "99d2f6355acf53124ec11829435e74f113187ae42ff00c608dafd8cf39471a1f",
+  "manifest_hash": "98da4b2cea9560fc8901319d8a25f8c1176f3151be0e2afd1135660e2eb9f4b3"
+}

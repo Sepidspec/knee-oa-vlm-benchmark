@@ -1,0 +1,4 @@
+condition,eligible,valid,completion,all_case_accuracy,QWK,macro_F1,balanced_accuracy,accuracy,MAE,large_error,QWK_lo,QWK_hi,QWK_bootstrap_valid,macro_F1_lo,macro_F1_hi,macro_F1_bootstrap_valid,balanced_accuracy_lo,balanced_accuracy_hi,balanced_accuracy_bootstrap_valid,accuracy_lo,accuracy_hi,accuracy_bootstrap_valid,MAE_lo,MAE_hi,MAE_bootstrap_valid,large_error_lo,large_error_hi,large_error_bootstrap_valid
+original,100,100,1.0,0.25,0.0,0.08,0.2,0.25,1.16,0.41,0.0,0.0,2000,0.05811965811965812,0.10149253731343284,2000,0.2,0.25,2000,0.17,0.34,2000,1.0,1.31,2000,0.31,0.51,2000
+blank,100,100,1.0,0.25,0.0,0.08,0.2,0.25,1.16,0.41,0.0,0.0,2000,0.05811965811965812,0.10149253731343284,2000,0.2,0.25,2000,0.17,0.34,2000,1.0,1.31,2000,0.31,0.51,2000
+shuffled,100,100,1.0,0.25,0.0,0.08,0.2,0.25,1.16,0.41,0.0,0.0,2000,0.05811965811965812,0.10149253731343284,2000,0.2,0.25,2000,0.17,0.34,2000,1.0,1.31,2000,0.31,0.51,2000

@@ -1,0 +1,50 @@
+{
+  "cnn_20": {
+    "T": 4.417574296493999,
+    "at_bound": false,
+    "eligible": 412,
+    "n": 412
+  },
+  "cnn_full": {
+    "T": 1.8267766573641404,
+    "at_bound": false,
+    "eligible": 412,
+    "n": 412
+  },
+  "lora_20": {
+    "T": 1.3123356352760398,
+    "at_bound": false,
+    "eligible": 412,
+    "n": 412
+  },
+  "vlm_p0": {
+    "T": 54.59780028938405,
+    "at_bound": true,
+    "eligible": 412,
+    "n": 412
+  },
+  "vlm_p1": {
+    "T": 1.2055281193265301,
+    "at_bound": false,
+    "eligible": 412,
+    "n": 412
+  },
+  "vlm_s1": {
+    "T": 6.6345478453935725,
+    "at_bound": false,
+    "eligible": 412,
+    "n": 412
+  },
+  "vlm_s2": {
+    "T": 6.060526544161707,
+    "at_bound": false,
+    "eligible": 412,
+    "n": 412
+  },
+  "vlm_s3": {
+    "T": 4.816623909032188,
+    "at_bound": false,
+    "eligible": 412,
+    "n": 412
+  }
+}

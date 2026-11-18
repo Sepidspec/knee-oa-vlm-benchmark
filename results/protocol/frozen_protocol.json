@@ -1,0 +1,87 @@
+{
+  "available": [
+    "cnn_full",
+    "cnn_20",
+    "vlm_p0",
+    "vlm_p1",
+    "vlm_s1",
+    "vlm_s2",
+    "vlm_s3",
+    "lora_20"
+  ],
+  "files": {
+    "checkpoints/cnn_20.json": "5008bc6ae443ca578f61323d98056dbf3bb79e9f780f767e2bc2ea6b22e533dc",
+    "checkpoints/cnn_20.pt": "02584b815df67283506e2584d77cafeae9be7867cd6b9758b689ce7069f2bd69",
+    "checkpoints/cnn_full.json": "7b450d6661fa2c1dd31380da7df249cec2c91e45cdcc3a28004248992d7792b1",
+    "checkpoints/cnn_full.pt": "7b0468bc5e87a1b16f8da79b77e456d8f8356adf65592154fd32b6e8f17967da",
+    "checkpoints/lora_20/README.md": "f6a926f7d808610ce1ec264281e505a7ec164d28961d166b19dd143315c7da43",
+    "checkpoints/lora_20/adapter_config.json": "2079f9b19a827390a1c62a2a4196b77238f05d03d871d2bbca9bdc8361a0925c",
+    "checkpoints/lora_20/adapter_model.safetensors": "591179497a7222de84175c4bea7e3cc37330a354344daffe88e663771f43889f",
+    "checkpoints/lora_20/added_tokens.json": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+    "checkpoints/lora_20/chat_template.json": "94174d7176c52a7192f96fc34eb2cf23c7c2059d63cdbfadca1586ba89731fb7",
+    "checkpoints/lora_20/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "checkpoints/lora_20/preprocessor_config.json": "986d0d7f16c98eb1e1e89f5582115870df025129264f5a79191b99858379c076",
+    "checkpoints/lora_20/special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "checkpoints/lora_20/tokenizer.json": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+    "checkpoints/lora_20/tokenizer_config.json": "2f9f6de39ffcc0a504902360717594a84f16917bd6086b0f2962b79638fe92a5",
+    "checkpoints/lora_20/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "checkpoints/lora_20_result.json": "16d6dc09fa9a240dcbe3219e6ca07f2223a985c36c95f8901741d0bf5111ea0b",
+    "protocol/adapter_modules.json": "d8ae6331bcf037ea77b2f3c273efe854834f6463fb62d145d88fb5389a2040c5",
+    "protocol/adapter_subset_manifest.csv": "f8283026358f4412c21a26eead9a2e8dddec34d2170902621de08c83a6718962",
+    "protocol/answer_tokenization.json": "d06ab7168b2cc2256150411492436cb59833bbb46b3f4b5568c7377e5ec8ed2f",
+    "protocol/calibration_manifest.csv": "fc98264be51869981ed0ae99c1dddb19ee04ff28debb02f94c2215919b85332a",
+    "protocol/conditions.json": "d65595a63ddeaef038592b1c1c52d22e8090fa54cd73b8ed6d7c1ffffc829294",
+    "protocol/development_omissions.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "protocol/environment.json": "be507940c6521644b56771d942495c6cc975ae0b2e7afdab19953277b9d4f57c",
+    "protocol/full_fit_manifest.csv": "bb1d17369a1091af1b250c21a67dfdcedf2b7686da7765eeaccc657f8e72e2ed",
+    "protocol/full_select_manifest.csv": "7f5a75aa2a031395e488e11767d2f82957da8364d3e8656fd08fab5fecc3c5ac",
+    "protocol/model_LICENSE": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50",
+    "protocol/model_README.md": "0b6da5a154b923da4dc66e416140c9b7f235f9b08fbbcc27fd9df7b586e3150d",
+    "protocol/model_revision.json": "9657a903ee478a1ab9a46cc333bdcf950b46b9b955896a893b533a91a22043b6",
+    "protocol/pilot_manifest.csv": "133d25130bd809da1cc579b3197bb392e837f5be88d965a2fd75c5fe77c11a37",
+    "protocol/processor.json": "df34fcb99582aa98c1b69019350336152f939b9267a287ea98e2854c7809f55a",
+    "protocol/prompts.json": "0b6313d26920c6b8f0f93eca1427284698ade8cd735a125e274237cba0d04cc7",
+    "protocol/protocol_development_manifest.csv": "ee8f62067bbd56c90fbb367077a69c92308a4c87de2809d583488f0f675d84ee",
+    "protocol/requirements_observed.txt": "c8da7b16b0cf8a96ee2d882430352b786a65e23c059076d0c9d266d95cda74b7",
+    "protocol/review_thresholds.json": "54168d3766c680830f24f935e74717037cc624582109997f6040c33c648c5b5f",
+    "protocol/robustness_manifest.csv": "f7eaf99195b98b9c03e5e14bebb44f80c9445b9dd7a6d05b8676f7a24a14d3c9",
+    "protocol/run_contract.json": "8898a79556cdb90829852287c8486bacec7057052719be032cbb510eb303808b",
+    "protocol/shuffled_controls.json": "b7e4df46f5e41dfce2e9b3d63486ce181808041de1305236b03d6478b88833d4",
+    "protocol/subset_fit_manifest.csv": "e466e0cd8609beda833cd91a65e093fc02b524347a6c2c62ab8e77b0b71a545a",
+    "protocol/subset_select_manifest.csv": "14fb7fc9a9acf58e4a1e3aff200dbba3894e7de99bee5aa75bf95364c90b5503",
+    "protocol/support_S1.csv": "3db9cac41912dc10e9a98f486265275e608d91061db0494fb699a68669a161cd",
+    "protocol/support_S2.csv": "3da204680a345117652962ca0ef559e83e20fe18b8b9156b43d028886432bdf6",
+    "protocol/support_S3.csv": "d69a5ba6fc03ec4eed60f1be5b231e8acbe34daf2ad267858c5b86747992d4cb",
+    "protocol/temperatures.json": "b431b6812726c32f0e1ecdc54ff426bd3b9038e11b657efb1bb7013f9247b440",
+    "protocol/timing_manifest.csv": "825405257f00f4ecf5a85d3dd6d4352396e69aac01ba78b94d2687bfd8b6545e"
+  },
+  "grouping": "provisional seven-digit prefix",
+  "inference_scope": "engineering benchmark; participant independence not established",
+  "notes": [
+    "Validation was previously used by the CNN pilot.",
+    "Foundation pretraining overlap with this benchmark cannot be excluded.",
+    "Perceptual similarity flags are retained for review; no automatic exclusions."
+  ],
+  "omitted": {},
+  "primary": "QWK(vlm_p0) minus QWK(cnn_full), common-complete cases, paired prefix bootstrap",
+  "run_contract": "99d2f6355acf53124ec11829435e74f113187ae42ff00c608dafd8cf39471a1f",
+  "secondary_families": {
+    "RQ2": [
+      "rubric QWK",
+      "examples QWK"
+    ],
+    "RQ3": [
+      "adapter vs frozen QWK",
+      "adapter vs matched CNN QWK"
+    ],
+    "RQ4": [
+      "scaled-minus-raw NLL per configuration"
+    ],
+    "RQ5": [
+      "confidence-minus-random error at 60%,80%,90% per configuration"
+    ],
+    "RQ6": [
+      "six perturbations x measured configurations x QWK and large-error changes"
+    ]
+  }
+}

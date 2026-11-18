@@ -1,0 +1,12 @@
+{
+  "bootstrap_valid": 2000,
+  "contrast": "Frozen P0 minus CNN full",
+  "effect": -0.7422383602260276,
+  "excluded_a": 0,
+  "excluded_b": 0,
+  "hi": -0.7125184742623627,
+  "lo": -0.7694312440582723,
+  "metric": "QWK",
+  "n": 1656,
+  "p": 0.0004997501249375312
+}

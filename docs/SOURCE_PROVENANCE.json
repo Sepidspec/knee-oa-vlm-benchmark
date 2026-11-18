@@ -1,0 +1,28 @@
+{
+  "prepared_utc_date": "2026-11-18",
+  "source_notebook": "Knee_OA_All_Research_Questions_Kaggle.ipynb",
+  "source_notebook_sha256": "47fd5ba72b4e1e359ed7185a321a0a8d5027fd76f1970ab030c2482e40c01fac",
+  "publication_notebook": "notebooks/Knee_OA_Study.ipynb",
+  "source_status": "Available complete 38-cell source, prepared as a publication copy; final executed resumed Kaggle notebook was not included in the output backups.",
+  "publication_changes": [
+    "Added publication and resume instructions; cleared execution counts and outputs.",
+    "Changed fresh-run output directory to prevent mixing with the completed study.",
+    "Pinned fresh-run Qwen revision to the exact revision recorded in the completed study.",
+    "Load historical config from resume_from before validating the run contract.",
+    "Write resumed environment records to logs rather than overwriting frozen files.",
+    "Restore frozen state after function definitions; verify protected files before resuming.",
+    "Use a notebook-server-relative ZIP download link.",
+    "Use stable cell identifiers and standard notebook metadata for publication."
+  ],
+  "analysis_module": "src/knee_oa/analysis.py",
+  "analysis_module_changes": "Function bodies extracted from notebook analysis cells, CPU-only imports and file/display adapters; no model execution.",
+  "result_archive": "artifacts/Knee_OA_study_outputs.zip",
+  "result_archive_sha256": "8136cfa308572d43f6026eb1b4dbaefa1c4a256c0ecce553cc77b37b3bb93a57",
+  "result_archive_bytes": 16182869,
+  "result_archive_members": 195,
+  "recorded_run_contract": "99d2f6355acf53124ec11829435e74f113187ae42ff00c608dafd8cf39471a1f",
+  "recorded_manifest_hash": "98da4b2cea9560fc8901319d8a25f8c1176f3151be0e2afd1135660e2eb9f4b3",
+  "recorded_frozen_sha256": "9405a630bbacc363399b04d6022f4e031af19ea32ae5f2d22ae18db5c311de48",
+  "fresh_run_note": "Pinning model_revision changes the configuration hash of a fresh run. Historical outputs retain their original contract and are not rewritten.",
+  "publication_notebook_sha256": "5ecb892122203b73db825306bb4493906ea6995535e795feeddc4cad2cfeaa06"
+}

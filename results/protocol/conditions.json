@@ -1,0 +1,38 @@
+{
+  "cnn_20": {
+    "kind": "cnn"
+  },
+  "cnn_full": {
+    "kind": "cnn"
+  },
+  "lora_20": {
+    "kind": "adapter",
+    "prompt": "P0",
+    "support": null
+  },
+  "vlm_p0": {
+    "kind": "vlm",
+    "prompt": "P0",
+    "support": null
+  },
+  "vlm_p1": {
+    "kind": "vlm",
+    "prompt": "P1",
+    "support": null
+  },
+  "vlm_s1": {
+    "kind": "vlm",
+    "prompt": "P1",
+    "support": "S1"
+  },
+  "vlm_s2": {
+    "kind": "vlm",
+    "prompt": "P1",
+    "support": "S2"
+  },
+  "vlm_s3": {
+    "kind": "vlm",
+    "prompt": "P1",
+    "support": "S3"
+  }
+}

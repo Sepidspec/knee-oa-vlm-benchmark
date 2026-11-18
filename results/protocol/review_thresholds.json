@@ -1,0 +1,58 @@
+{
+  "cnn_20": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.3216317141591859,
+    "ties": "All confidence ties retained"
+  },
+  "cnn_full": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.4145118222232093,
+    "ties": "All confidence ties retained"
+  },
+  "lora_20": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.3730878406888323,
+    "ties": "All confidence ties retained"
+  },
+  "vlm_p0": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.20387199470559594,
+    "ties": "All confidence ties retained"
+  },
+  "vlm_p1": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.3341016646592889,
+    "ties": "All confidence ties retained"
+  },
+  "vlm_s1": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.22336503134337227,
+    "ties": "All confidence ties retained"
+  },
+  "vlm_s2": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.22637126287004958,
+    "ties": "All confidence ties retained"
+  },
+  "vlm_s3": {
+    "attainable": true,
+    "dev_coverage": 0.8019323671497585,
+    "target_coverage": 0.8,
+    "threshold": 0.23459971803479696,
+    "ties": "All confidence ties retained"
+  }
+}

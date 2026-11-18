@@ -1,0 +1,21 @@
+grade,category,n
+0,Stable correct,0
+1,Stable correct,0
+2,Stable correct,24
+3,Stable correct,0
+4,Stable correct,0
+0,Stable wrong,37
+1,Stable wrong,22
+2,Stable wrong,0
+3,Stable wrong,10
+4,Stable wrong,2
+0,Changed grade,2
+1,Changed grade,1
+2,Changed grade,1
+3,Changed grade,1
+4,Changed grade,0
+0,Incomplete,0
+1,Incomplete,0
+2,Incomplete,0
+3,Incomplete,0
+4,Incomplete,0

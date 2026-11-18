@@ -1,0 +1,44 @@
+{
+  "bootstrap": 2000,
+  "research_questions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "seconds": 717.3096700060005,
+  "matched_recorded_outputs": [
+    "Table_05.csv",
+    "Table_06.csv",
+    "Table_07.csv",
+    "Table_08.csv",
+    "Table_09.csv",
+    "Table_10.csv",
+    "Table_11.csv",
+    "Table_12.csv",
+    "Table_13.csv",
+    "Table_14.csv",
+    "Table_15.csv",
+    "Table_16.csv",
+    "Table_17.csv",
+    "Table_18.csv",
+    "primary_estimand.json",
+    "RQ2_paired_contrasts.csv",
+    "RQ3_paired_contrasts.csv",
+    "RQ4_calibration_contrasts.csv",
+    "RQ5_confidence_vs_random.csv",
+    "RQ6_perturbation_effects.csv"
+  ],
+  "numerical_comparison": "tolerance rtol=1e-8, atol=1e-10; figure bytes not compared",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "recorded_training_and_inference_rerun": false,
+  "publication_notebook_syntax_check": "All 38 cells parsed; GPU execution was not repeated during repository preparation."
+}

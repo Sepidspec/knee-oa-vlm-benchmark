@@ -1,0 +1,8 @@
+{
+  "P0": "Assess the current radiographic knee osteoarthritis severity in this knee X-ray using the Kellgren\u2013Lawrence scale. Choose one grade from 0, 1, 2, 3 or 4. Answer with the grade only.",
+  "P1": "Kellgren\u2013Lawrence rubric: grade 0, no radiographic osteoarthritis; grade 1, doubtful joint-space narrowing with possible osteophytic lipping; grade 2, definite osteophytes with possible joint-space narrowing; grade 3, definite narrowing with multiple osteophytes, some sclerosis and possible bony deformity; grade 4, marked narrowing with large osteophytes, severe sclerosis and definite bony deformity. Assess the current radiographic knee osteoarthritis severity in this knee X-ray using the Kellgren\u2013Lawrence scale. Choose one grade from 0, 1, 2, 3 or 4. Answer with the grade only.",
+  "P2": "Using the Kellgren\u2013Lawrence scale, assign the current radiographic knee osteoarthritis grade for this X-ray. Select 0, 1, 2, 3 or 4. Return only the grade.",
+  "P3": "Grade the knee osteoarthritis visible on this radiograph according to Kellgren\u2013Lawrence. Use one of 0, 1, 2, 3 or 4 and output that grade only.",
+  "P4": "For the knee X-ray shown, determine its current Kellgren\u2013Lawrence osteoarthritis grade. Your answer must be only 0, 1, 2, 3 or 4.",
+  "P5": "Which Kellgren\u2013Lawrence grade best describes the current knee osteoarthritis severity in this radiograph? Choose 0, 1, 2, 3 or 4. Give the grade alone."
+}

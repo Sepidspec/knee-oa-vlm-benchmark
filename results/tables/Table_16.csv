@@ -1,0 +1,5 @@
+category,n,percent,eligible
+Stable correct,24,24.0,100
+Stable wrong,71,71.0,100
+Changed grade,5,5.0,100
+Incomplete,0,0.0,100

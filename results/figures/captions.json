@@ -1,0 +1,16 @@
+{
+  "1": "Paired confusion matrices on the common-complete test cohort. Failures are reported separately in Table 5; rows are reference grades.",
+  "10": "Correctness and review accounting under fixed development thresholds. Test coverage may differ from 80%; inference failures always enter review. Thresholds were selected without test labels.",
+  "11": "Paired changes from each model\u2019s own unmodified image results. Bars are 95% provisional prefix-bootstrap intervals on common-complete pairs. Holm-adjusted tests are supplied separately. Transformations are engineering controls, not validated acquisition shifts.",
+  "12": "Correctness-aware prompt stability by reference grade and all-case accuracy under target, blank and shuffled-image controls. Stable errors are counted separately. Controls use original references and are not pooled with the main cohort; they do not establish causal explanations.",
+  "13": "Measured quality and runtime. Horizontal and vertical bars are grouped 95% intervals; marker area increases with peak allocated GPU memory. Quality and timing cohorts are separately named in Table 17. No optimal frontier is asserted.",
+  "14": "Synchronized component means sum to end-to-end warm means. Processing/transfers are shown as an additional component so their cost is not silently assigned to image encoding. Loading, target disk reads and training are separate; support images are reprocessed without prefix caching. Timing hooks add synchronization overhead.",
+  "2": "Ordinal error distances and grade-specific recall. Recall bars are 95% provisional prefix-bootstrap intervals; rare-grade resamples without support are excluded and counted in Table 6.",
+  "3": "Prompt and demonstration comparisons. QWK uses each configuration\u2019s complete cases; recall uses their common-complete cohort. Bars are 95% provisional prefix-bootstrap intervals.",
+  "4": "Three fixed training-only support sets evaluated on the same test targets. Intervals quantify case sampling uncertainty; differences between the three sets are descriptive and do not justify selecting the best test set.",
+  "5": "Measured downstream label budgets and performance, with grouped 95% intervals. Zero denotes no KL gradient fitting, not absence of foundation pretraining. No scaling law or full-data adapter result is inferred.",
+  "6": "Paired correctness transitions and grade recall after adaptation, when feasible. Failed or omitted adaptation is stated explicitly and is not replaced by simulated performance.",
+  "7": "Top-label reliability in 15 fixed equal-width bins; empty bins are omitted, marker area reflects support. Model-level metric intervals appear in Table 11. Scaling does not change the selected grade.",
+  "8": "Frozen P0 confidence distributions before and after temperature scaling. Correctness is unchanged; reduced confidence alone is not improved grading.",
+  "9": "Risk versus all-case coverage. Rankings use calibrated confidence; failures are never released. Bars at 60%, 80% and 90% show 95% provisional prefix-bootstrap intervals with ranking recomputed within each resample. Random ordering is a descriptive reference."
+}
